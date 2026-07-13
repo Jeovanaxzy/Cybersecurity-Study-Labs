@@ -1,0 +1,47 @@
+# Laboratório 01 – Ambiente para Vulnerability Assessment
+
+## Objetivo
+
+Criar um ambiente propositalmente vulnerável para estudos de Vulnerability Assessment.
+
+## Ambiente
+
+Host
+
+↓
+
+VirtualBox
+
+↓
+
+Kali Linux
+
+Ubuntu Server
+
+## Rede
+
+Host-Only
+
+Kali
+192.168.56.101
+
+Ubuntu Server
+192.168.56.102
+
+## Serviços instalados
+
+- SSH
+- Apache
+- Samba
+- MariaDB
+
+## Objetivo dos serviços
+
+- SSH → Administração remota.
+- Apache → Servidor web.
+- Samba → Compartilhamento de arquivos.
+- MariaDB → Banco de dados.
+
+## Próximo laboratório
+
+Executar uma análise de vulnerabilidades utilizando **Nmap** e **Greenbone (GVM)**.
