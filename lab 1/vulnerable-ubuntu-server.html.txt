@@ -44,4 +44,4 @@ Ubuntu Server
 
 ## Próximo laboratório
 
-Executar uma análise de vulnerabilidades utilizando **Nmap** e **Greenbone (GVM)**.
+Executar uma análise de vulnerabilidades utilizando **Nmap** 
