@@ -15,7 +15,6 @@ Laboratórios práticos desenvolvidos para estudar Vulnerability Assessment, Net
 
 - Kali Linux
 - Ubuntu Server
-- Greenbone Community Edition
 - Nmap
 - Samba
 - Apache
