@@ -15,6 +15,7 @@ Laboratórios práticos desenvolvidos para estudar Vulnerability Assessment, Net
 
 - Kali Linux
 - Ubuntu Server
+-linux mint
 - Nmap
 - Samba
 - Apache
@@ -25,7 +26,6 @@ Laboratórios práticos desenvolvidos para estudar Vulnerability Assessment, Net
 | Laboratório | Status |
 |-------------|--------|
 
-Ubuntu Vulnerável |em andamento |
-| Greenbone Scan | em andamento|
-| Remediation | em andamento |
-| Nmap Enumeration | em andamento|
+Server vuneravel |em andamento |
+| Scan com Nmap | em andamento|
+
