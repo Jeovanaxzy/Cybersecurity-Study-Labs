@@ -1,0 +1,6 @@
+O laboratório foi criado com o intuito de simular um ambiente vulnerável, onde há um atacante que tentará explorar essas vunerabilidades.
+
+O ambiente é composto de duas maquinas virtuais O Kali linux, e a maquina vulnerável metasploitable, ambas estão na mesma rede (host-only)
+
+A maquina metasploitable é uma maquina criada justamente para analises de vunerabilidades o link para download:https://sourceforge.net/projects/metasploitable/
+
