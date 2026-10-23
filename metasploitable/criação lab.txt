@@ -1,0 +1,41 @@
+# Laboratório 01 - Reconhecimento com Nmap
+
+## Objetivo
+
+O laboratório foi criado com o intuito de simular um ambiente vulnerável, onde uma máquina atacante realiza o reconhecimento e a análise de possíveis vulnerabilidades em uma máquina de destino.
+
+## Ambiente
+
+O ambiente é composto por duas máquinas virtuais: Kali Linux e Metasploitable 2. O Kali será utilizado para executar as ferramentas de análise, enquanto o Metasploitable servirá como alvo dos testes.
+
+As duas máquinas estão configuradas na mesma rede virtual, utilizando o modo Host-Only, permitindo a comunicação entre elas em um ambiente isolado.
+
+O Metasploitable é uma máquina virtual desenvolvida intencionalmente com vulnerabilidades para fins educacionais e prática de testes de segurança.
+
+Link para download: https://sourceforge.net/projects/metasploitable/
+
+## Primeiro scan com Nmap
+
+Após finalizar a configuração do ambiente, iniciei o reconhecimento da máquina Metasploitable utilizando o Nmap.
+
+O comando utilizado foi:
+
+```bash
+nmap -sV 192.168.56.102
+```
+
+O parâmetro `-sV` permite identificar os serviços e suas versões nas portas detectadas. O endereço `192.168.56.102` corresponde ao IP da máquina Metasploitable no laboratório.
+
+## Resultados
+
+Com o primeiro scan, foi possível identificar diversas portas abertas e serviços em execução. Entre eles, estavam o SSH, o HTTP e o Samba.
+
+O SSH permite acesso remoto à máquina, o HTTP está relacionado à disponibilização de conteúdo web e o Samba oferece recursos de compartilhamento de arquivos em rede.
+
+A identificação desses serviços foi o primeiro passo para entender a superfície de ataque da máquina e definir quais serviços serão analisados nas próximas etapas.
+
+## Próximos passos
+
+A próxima etapa será investigar os serviços identificados, verificar suas versões e pesquisar possíveis vulnerabilidades relacionadas. A partir dessas informações, pretendo realizar testes controlados para entender melhor os riscos encontrados e como eles podem ser explorados em um ambiente de laboratório.
+
+Todos os testes serão realizados exclusivamente nas máquinas virtuais configuradas para esse propósito.
